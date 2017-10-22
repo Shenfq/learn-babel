@@ -1,9 +1,11 @@
 const path = require('path');
 module.exports = {
-    entry: ['./src.js'],
+    entry: ['./runtime/src.js'],
+    // entry: ['./polyfill/src.js'],
     output: {
         path: path.resolve(__dirname, 'build'),
-        filename: 'dist.js',
+        filename: 'runtime.js',
+        // filename: 'polyfill.js',
     },
     module: {
         rules: [
