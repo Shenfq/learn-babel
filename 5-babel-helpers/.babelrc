@@ -1,0 +1,7 @@
+{
+    "plugins": [
+        "transform-regenerator",
+        "transform-object-assign",
+        "external-helpers"
+    ]
+}
